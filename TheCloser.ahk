@@ -11,8 +11,6 @@ TrayMenu()
 CheckUpdate()
 RegisterHotkeys()
 return
-
-
 #Include <Anchor>
 #Include <BackupSettings>
 #Include <CheckAdmin>
