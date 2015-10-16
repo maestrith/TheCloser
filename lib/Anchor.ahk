@@ -45,4 +45,5 @@ Anchor(ctrl, anchor="", redraw=false) {
 		dw-=giw-gw, dh-=gih-gh
 	NumPut(ctrl,c,cb,Ptr), NumPut(dx-bx,c,cb+PtrSize,"Short"), NumPut(dy-by,c,cb+PtrSize+2,"Short"), NumPut(dw,c,cb+PtrSize+4,"Short"), NumPut(dh,c,cb + PtrSize + 6,"Short")
 	return, True
+	;test
 }
